@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wheel Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="wheel-container">
+        <canvas id="wheel" width="500" height="500"></canvas>
+        <div>
+            <label id="winLabel">Press SPIN Button to Play</label>
+        </div>
+        <div class="controls">
+            <input type="number" id="winAmount" step="100" placeholder="Enter Win Amount" />
+            <button id="spinButton">SPIN</button>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.2.1/howler.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
